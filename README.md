@@ -30,3 +30,12 @@ a single number where each bit (1, 2, 4, 8, ...) represents a specific type of t
 - 💡 Uses the official [hafas-client mode bitmask](https://github.com/public-transport/hafas-client/blob/main/docs/writing-a-profile.md) as one profile
 
 ---
+
+## Structure
+
+```bash
+.
+├── docs        # static scripts and assets for demo
+├── index.html  # demo entry
+└── src_react   # react source code
+```

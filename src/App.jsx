@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { modeSets } from "./modes";
+import saarVV from "./assets/saarVV.png";
+import lux from "./assets/lux.png";
 import "./App.css";
 
 function App() {
@@ -145,6 +147,9 @@ function App() {
         <a href="https://github.com/public-transport/hafas-client/tree/main" target="_blank" rel="noopener noreferrer"> hafas-client </a>
         by <a href="https://transport.rest/" target="_blank" rel="noopener noreferrer"> transport.rest transit APIs</a>.
       </p>
+      <h3>Bitmask use-case examples:</h3>
+      <img src={saarVV} alt="saarvv_eg" style={{ height: "400px", padding: "15px" }} />
+      <img src={lux} alt="lux_eg" style={{ height: "400px", padding: "15px" }} />
     </div>
   );
 }

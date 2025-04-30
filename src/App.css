@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+.bitmask-grid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.bit-card {
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 0.25rem;
+  text-align: center;
+  font-size: 0.68rem;
+  min-width: 0;
+  user-select: none;
+}
+.bit-card-on {
+  background-color: #FFA756;
+  color: #000000;
+  font-weight: bold;
+}
+.bit-card-off {
+  background-color: #2d2d2d;
+  color: #aaa;
+}
+.bit-label {
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+.bit-value {
+  font-size: 0.8rem;
+  opacity: 0.9;
+  color: #666666;
+}
+.bit-digit {
+  font-size: 1.5rem;
+}

@@ -2,7 +2,7 @@
 
 **[Web Demo](https://greenmeeple.github.io/hafas-bitmask-calculator/)**
 
-![](https://github.com/GreenMeeple/hafas-bitmask-calculator/blob/main/src/assets/demo.png)
+![](https://github.com/GreenMeeple/hafas-bitmask-calculator/blob/main/src_react/src/assets/demo.png)
 
 This is a simple web-based tool to help you **decode** and **encode** bitmasks used by the [HAFAS](https://de.wikipedia.org/wiki/HAFAS) (HaCon Fahrplan-Auskunfts-System) API.  
 It visually maps a decimal bitmask to the transport modes it represents and vice versa.

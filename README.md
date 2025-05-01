@@ -2,7 +2,7 @@
 
 **[Web Demo](https://greenmeeple.github.io/hafas-bitmask-calculator/)**
 
-![](https://github.com/GreenMeeple/hafas-bitmask-calculator/blob/main/src_react/src/assets/demo.png)
+![](https://raw.githubusercontent.com/GreenMeeple/hafas-bitmask-calculator/refs/heads/main/react/src/assets/demo.png)
 
 This is a simple web-based tool to help you **decode** and **encode** bitmasks used by the [HAFAS](https://de.wikipedia.org/wiki/HAFAS) (HaCon Fahrplan-Auskunfts-System) API.  
 It visually maps a decimal bitmask to the transport modes it represents and vice versa.
@@ -31,11 +31,26 @@ a single number where each bit (1, 2, 4, 8, ...) represents a specific type of t
 
 ---
 
+## 🛠 Technology
+
+- React + Vite
+- Plain CSS for styling
+- No external UI libraries
+- Fully static — can be deployed to GitHub Pages, Netlify, etc.
+
+---
+
 ## Structure
 
 ```bash
 .
-├── docs        # static scripts and assets for demo
+├── assets        # static scripts and assets for demo
 ├── index.html  # demo entry
-└── src_react   # react source code
+└── react   # react source code
 ```
+
+---
+
+## 📜 License
+
+MIT © 2024 [Alex Li]

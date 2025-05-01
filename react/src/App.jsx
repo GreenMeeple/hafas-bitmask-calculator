@@ -150,6 +150,22 @@ function App() {
       <h3>Bitmask use-case examples:</h3>
       <img src={saarVV} alt="saarvv_eg" style={{ height: "400px", padding: "15px" }} />
       <img src={lux} alt="lux_eg" style={{ height: "400px", padding: "15px" }} />
+      <footer>
+        <div style={{ alignItems: "center", paddingTop: "15px" }}>
+          <p style={{ margin: 0 }}>
+            <a href="https://greenmeeple.github.io/">
+              <img
+                src="https://greenmeeple.github.io/img/logo.png"
+                alt="GreenMeeple"
+                height="32"
+                style={{ verticalAlign: "middle" }}
+              />
+            </a>
+            <span style={{ marginLeft: "0.5rem" }}>© 2025 Alex Li</span>
+          </p>
+        </div>
+      </footer>
+
     </div>
   );
 }

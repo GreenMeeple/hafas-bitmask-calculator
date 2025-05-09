@@ -51,6 +51,13 @@ a single number where each bit (1, 2, 4, 8, ...) represents a specific type of t
 
 ---
 
+## Related Projects
+
+[hafas-client](https://github.com/public-transport/hafas-client) -- JavaScript client for HAFAS public transport APIs.
+[Mobiliteit.lu](https://github.com/Felix3qH4/Mobiliteit.lu) -- Real-Time tracking of bus lines across Luxembourg
+
+---
+
 ## 📜 License
 
 MIT © 2024 [Alex Li]
